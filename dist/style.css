@@ -1,0 +1,270 @@
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+}
+.flex-item {
+    padding: 0px;
+    width: 235px;
+    height: 260px;
+    margin-top: 10px;
+    border: 2px solid #99CCFF;
+    margin-bottom: 40px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+.sub-flex-item:nth-of-type(1) {
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+}
+.sub-flex-item:nth-of-type(2) {
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+}
+.sub-flex-item:nth-of-type(3) {
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+}
+.sub-flex-item:nth-of-type(4) {
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+}
+.sub-flex-item:nth-of-type(5) {
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+}
+.sub-flex-item {
+    background: white;
+    line-height: 41px;
+    color: #99CCFF;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    width: 15%;
+    margin-top: 69px;
+    border: 1px solid #99CCFF;
+    border-top: 2px solid #99CCFF;
+    border-bottom: 2px solid #99CCFF;
+}
+.sub-container {
+    padding: 0;
+    margin: -1px;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+        align-items: stretch;
+}
+.shirt-title {
+    font-size: 17px;
+    color: #99CCFF;
+    height: 20px;
+    width: 103px;
+    position: absolute;
+    margin-top: 210px;
+}
+.shirt-price {
+    font-size: 20px;
+    color: #99CCFF;
+    height: 20px;
+    width: 100px;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 166px;
+    font-weight: bold;
+}
+.heart-image {
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url(./images/heart2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.loop-image {
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url(./images/loop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.forward-image {
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url(./images/forward.png);
+    background-repeat: no-repeat;
+    background-position-x: 219px;
+    border: 1px solid #99CCFF;
+    z-index: 1;
+    position: relative;
+}
+.checkbox-image {
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url(./images/checkbox-partial.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.rocket-image {
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url(./images/rocket.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tshirt1-image {
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url(./images/tshirt1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.tshirt2-image {
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url(./images/tshirt2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.tshirt3-image {
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url(./images/tshirt3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+li>ul>li:hover {
+    background-color: #99CCFF;
+    color: white;
+}
+html {
+    font-size: 0px;
+}
+.size-popup {
+    height: 42px;
+    width: 45px;
+    position: absolute;
+    -webkit-transform: translate(-36px, -1px);
+        -ms-transform: translate(-36px, -1px);
+            transform: translate(-36px, -1px);
+    z-index: 2;
+}
+.color-popup {
+    height: 42px;
+    width: 45px;
+    position: absolute;
+    -webkit-transform: translate(-23px, -1px);
+        -ms-transform: translate(-23px, -1px);
+            transform: translate(-23px, -1px);
+    z-index: 2;
+}
+.color-popup:hover {
+    height: 65px;
+    width: 65px;
+    border: 1px solid #99CCFF;
+    position: absolute;
+    background-color: white;
+    border-radius: 10%;
+    -webkit-transform: translate(-32px, -72px);
+        -ms-transform: translate(-32px, -72px);
+            transform: translate(-32px, -72px);
+    visibility: visible;
+    z-index:1;
+}
+.size-popup:hover {
+    height: 119px;
+    width: 47px;
+    border: 1px solid #99CCFF;
+    position: absolute;
+    -webkit-transform: translate(-36px, -124px);
+        -ms-transform: translate(-36px, -124px);
+            transform: translate(-36px, -124px);
+    border-radius: 10%;
+    background-color: white;
+    visibility: visible;
+    z-index: 1;
+}
+@-webkit-keyframes down-bump {
+    0% {
+        padding-top: 2em;
+    }
+    50% {
+        padding-top: 1.5em;
+    }
+    100% {
+        padding-top: 2em;
+    }
+}
+@keyframes down-bump {
+    0% {
+        padding-top: 2em;
+    }
+    50% {
+        padding-top: 1.5em;
+    }
+    100% {
+        padding-top: 2em;
+    }
+}
+@-webkit-keyframes up-bump {
+    0% {
+        padding-top: 2em;
+    }
+    50% {
+        padding-top: 2.5em;
+    }
+    100% {
+        padding-top: 2em;
+    }
+}
+@keyframes up-bump {
+    0% {
+        padding-top: 2em;
+    }
+    50% {
+        padding-top: 2.5em;
+    }
+    100% {
+        padding-top: 2em;
+    }
+}
+.sub-flex-item {
+    -webkit-animation: down-bump 1.4s ease;
+            animation: down-bump 1.4s ease;
+}
+.sub-flex-item:nth-of-type(3):hover {
+    -webkit-animation: up-bump 1.4s ease;
+            animation: up-bump 1.4s ease;
+}
+.sub-flex-item:nth-of-type(4):hover {
+    -webkit-animation: up-bump 1.4s ease;
+            animation: up-bump 1.4s ease;
+}
